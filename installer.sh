@@ -339,7 +339,7 @@ function mysql_grant_user {
 ###########################################################
 
 function php_install_with_apache {
-    aptitude -y install php5 php5-mysql libapache2-mod-php5
+    aptitude -y install php5 php5-mysql libapache2-mod-php5 php5-mcrypt php5enmod
     touch /tmp/restart-apache2
 }
 
